@@ -8,11 +8,11 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface FindViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FindViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
