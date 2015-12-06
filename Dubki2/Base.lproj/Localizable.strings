@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Dubki
+
+  Created by Игорь Моренко on 01.11.15.
+  Copyright © 2015 LionSoft, LLC. All rights reserved.
+*/
+
+// заголовки вида шага маршрута
+"NoneParameter" = "Route parameters aren't set";
+"TotalTitleFormat" = "🏁 %@ → %@";
+"Bus"    = "🚌 Bus";
+"Train"  = "🚆 Train";
+"Subway" = "🚇 Subway";
+"OnFoot" = "🚶 On Foot";
+"Transition" = "🚶 Transition";
+
+// форматы для информации о шаге маршрута
+"TotalDetailFormat" = "Departure: %@ | Arrival: %@\nIn Way: %d minutes";
+"TrainDetailFormat" = "%@ (%@ → %@)\nStops: %@\nEntry into stations: %@";
+"OnfootDetailFormat" = "About %d minutes";
+"TransitDetailFormat" = "%@ → %@\nAbout %d minutes";
+
+"Bus" = "Bus";
+"Station" = "Station";
+
+"IWantToReach" = "I want to reach";
+
+"ToCampus"   = "to Campus";
+"FromCampus" = "from Campus";
+
+"ThePlannedTime" = "The planned time";
+"ThePlannedDepartureTime" = "The planned departure time";
+"ThePlannedArrivalTime" = "The planned arrival time";
+"Now" = "Now";
+
+"IWillGo" = "I will go";
+"IWillArrive" = "I will arrive";

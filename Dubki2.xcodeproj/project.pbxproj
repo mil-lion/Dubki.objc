@@ -9,10 +9,38 @@
 /* Begin PBXBuildFile section */
 		21B3739A1BFD01F700F42832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373991BFD01F700F42832 /* main.m */; };
 		21B3739D1BFD01F700F42832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3739C1BFD01F700F42832 /* AppDelegate.m */; };
-		21B373A01BFD01F700F42832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3739F1BFD01F700F42832 /* ViewController.m */; };
+		21B373A01BFD01F700F42832 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3739F1BFD01F700F42832 /* FindViewController.m */; };
 		21B373A31BFD01F700F42832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B373A11BFD01F700F42832 /* Main.storyboard */; };
 		21B373A51BFD01F700F42832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B373A41BFD01F700F42832 /* Assets.xcassets */; };
 		21B373A81BFD01F700F42832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B373A61BFD01F700F42832 /* LaunchScreen.storyboard */; };
+		21B373B41BFD02C300F42832 /* RouteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373B31BFD02C300F42832 /* RouteStep.m */; };
+		21B373B71BFD02D900F42832 /* BusStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373B61BFD02D900F42832 /* BusStep.m */; };
+		21B373BA1BFD02ED00F42832 /* TrainStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373B91BFD02ED00F42832 /* TrainStep.m */; };
+		21B373BD1BFD030C00F42832 /* OnFootStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373BC1BFD030C00F42832 /* OnFootStep.m */; };
+		21B373C01BFD031F00F42832 /* SubwayStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373BF1BFD031F00F42832 /* SubwayStep.m */; };
+		21B373C31BFD034100F42832 /* TransitionStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373C21BFD034100F42832 /* TransitionStep.m */; };
+		21B373C61BFD047800F42832 /* TotalStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373C51BFD047800F42832 /* TotalStep.m */; };
+		21B373D81BFD04B400F42832 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21B373D01BFD04B400F42832 /* Settings.bundle */; };
+		21B373DB1BFD05BD00F42832 /* apikeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B373DD1BFD05BD00F42832 /* apikeys.plist */; };
+		21B373DE1BFD05C600F42832 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21B373E01BFD05C600F42832 /* Localizable.strings */; };
+		21B373E21BFD05D100F42832 /* FortuneQuotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B373E41BFD05D100F42832 /* FortuneQuotes.plist */; };
+		21B373E61BFD05DD00F42832 /* Dormitories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B373E81BFD05DD00F42832 /* Dormitories.plist */; };
+		21B373EA1BFD05E700F42832 /* Campuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B373EC1BFD05E700F42832 /* Campuses.plist */; };
+		21B373EE1BFD064000F42832 /* Stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B373F01BFD064000F42832 /* Stations.plist */; };
+		21B373F21BFD064F00F42832 /* Subways.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B373F41BFD064F00F42832 /* Subways.plist */; };
+		21B373F61BFD065B00F42832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21B373F81BFD065B00F42832 /* InfoPlist.strings */; };
+		21B373FC1BFD073F00F42832 /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B373FB1BFD073F00F42832 /* Date.m */; };
+		21B374011BFD18F300F42832 /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374001BFD18F300F42832 /* String.m */; };
+		21B374041BFD1A7200F42832 /* ScheduleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374031BFD1A7200F42832 /* ScheduleService.m */; };
+		21B374071BFD1BA600F42832 /* RouteDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374061BFD1BA600F42832 /* RouteDataModel.m */; };
+		21B3740A1BFD265500F42832 /* CampusPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374091BFD265500F42832 /* CampusPickerViewController.m */; };
+		21B3740D1BFD267B00F42832 /* TimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3740C1BFD267B00F42832 /* TimePickerViewController.m */; };
+		21B374101BFD269B00F42832 /* RouteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3740F1BFD269B00F42832 /* RouteTableViewController.m */; };
+		21B374131BFD26BF00F42832 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374121BFD26BF00F42832 /* DetailViewController.m */; };
+		21B374161BFD26E000F42832 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374151BFD26E000F42832 /* SettingsTableViewController.m */; };
+		21B374191BFD270000F42832 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B374181BFD270000F42832 /* AboutViewController.m */; };
+		21B3741D1BFD341500F42832 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3741C1BFD341500F42832 /* LocationService.m */; };
+		21FC73751C0502E600DCA447 /* TrainRouteStepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC73741C0502E600DCA447 /* TrainRouteStepTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +48,69 @@
 		21B373991BFD01F700F42832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21B3739B1BFD01F700F42832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21B3739C1BFD01F700F42832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		21B3739E1BFD01F700F42832 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		21B3739F1BFD01F700F42832 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21B3739E1BFD01F700F42832 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FindViewController.h; path = ViewController/FindViewController.h; sourceTree = "<group>"; };
+		21B3739F1BFD01F700F42832 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FindViewController.m; path = ViewController/FindViewController.m; sourceTree = "<group>"; };
 		21B373A21BFD01F700F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21B373A41BFD01F700F42832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B373A71BFD01F700F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B373A91BFD01F700F42832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B373B21BFD02C300F42832 /* RouteStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteStep.h; path = Model/RouteStep.h; sourceTree = "<group>"; };
+		21B373B31BFD02C300F42832 /* RouteStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteStep.m; path = Model/RouteStep.m; sourceTree = "<group>"; };
+		21B373B51BFD02D900F42832 /* BusStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusStep.h; path = Model/BusStep.h; sourceTree = "<group>"; };
+		21B373B61BFD02D900F42832 /* BusStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusStep.m; path = Model/BusStep.m; sourceTree = "<group>"; };
+		21B373B81BFD02ED00F42832 /* TrainStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainStep.h; path = Model/TrainStep.h; sourceTree = "<group>"; };
+		21B373B91BFD02ED00F42832 /* TrainStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainStep.m; path = Model/TrainStep.m; sourceTree = "<group>"; };
+		21B373BB1BFD030C00F42832 /* OnFootStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnFootStep.h; path = Model/OnFootStep.h; sourceTree = "<group>"; };
+		21B373BC1BFD030C00F42832 /* OnFootStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnFootStep.m; path = Model/OnFootStep.m; sourceTree = "<group>"; };
+		21B373BE1BFD031F00F42832 /* SubwayStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubwayStep.h; path = Model/SubwayStep.h; sourceTree = "<group>"; };
+		21B373BF1BFD031F00F42832 /* SubwayStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubwayStep.m; path = Model/SubwayStep.m; sourceTree = "<group>"; };
+		21B373C11BFD034100F42832 /* TransitionStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionStep.h; path = Model/TransitionStep.h; sourceTree = "<group>"; };
+		21B373C21BFD034100F42832 /* TransitionStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionStep.m; path = Model/TransitionStep.m; sourceTree = "<group>"; };
+		21B373C41BFD047800F42832 /* TotalStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TotalStep.h; path = Model/TotalStep.h; sourceTree = "<group>"; };
+		21B373C51BFD047800F42832 /* TotalStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TotalStep.m; path = Model/TotalStep.m; sourceTree = "<group>"; };
+		21B373D01BFD04B400F42832 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		21B373DA1BFD054100F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		21B373DC1BFD05BD00F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/apikeys.plist; sourceTree = "<group>"; };
+		21B373DF1BFD05C600F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		21B373E11BFD05CC00F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		21B373E31BFD05D100F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/FortuneQuotes.plist; sourceTree = "<group>"; };
+		21B373E51BFD05D800F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/FortuneQuotes.plist; sourceTree = "<group>"; };
+		21B373E71BFD05DD00F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Dormitories.plist; sourceTree = "<group>"; };
+		21B373E91BFD05E200F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Dormitories.plist; sourceTree = "<group>"; };
+		21B373EB1BFD05E700F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Campuses.plist; sourceTree = "<group>"; };
+		21B373ED1BFD05EA00F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Campuses.plist; sourceTree = "<group>"; };
+		21B373EF1BFD064000F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Stations.plist; sourceTree = "<group>"; };
+		21B373F11BFD064300F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Stations.plist; sourceTree = "<group>"; };
+		21B373F31BFD064F00F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Subways.plist; sourceTree = "<group>"; };
+		21B373F51BFD065400F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Subways.plist; sourceTree = "<group>"; };
+		21B373F71BFD065B00F42832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21B373F91BFD066100F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21B373FA1BFD073F00F42832 /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		21B373FB1BFD073F00F42832 /* Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
+		21B373FE1BFD15A300F42832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		21B373FF1BFD18F300F42832 /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		21B374001BFD18F300F42832 /* String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
+		21B374021BFD1A7200F42832 /* ScheduleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleService.h; path = Model/ScheduleService.h; sourceTree = "<group>"; };
+		21B374031BFD1A7200F42832 /* ScheduleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleService.m; path = Model/ScheduleService.m; sourceTree = "<group>"; };
+		21B374051BFD1BA600F42832 /* RouteDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteDataModel.h; path = Model/RouteDataModel.h; sourceTree = "<group>"; };
+		21B374061BFD1BA600F42832 /* RouteDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteDataModel.m; path = Model/RouteDataModel.m; sourceTree = "<group>"; };
+		21B374081BFD265500F42832 /* CampusPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CampusPickerViewController.h; path = ViewController/CampusPickerViewController.h; sourceTree = "<group>"; };
+		21B374091BFD265500F42832 /* CampusPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CampusPickerViewController.m; path = ViewController/CampusPickerViewController.m; sourceTree = "<group>"; };
+		21B3740B1BFD267B00F42832 /* TimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimePickerViewController.h; path = ViewController/TimePickerViewController.h; sourceTree = "<group>"; };
+		21B3740C1BFD267B00F42832 /* TimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimePickerViewController.m; path = ViewController/TimePickerViewController.m; sourceTree = "<group>"; };
+		21B3740E1BFD269B00F42832 /* RouteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteTableViewController.h; path = ViewController/RouteTableViewController.h; sourceTree = "<group>"; };
+		21B3740F1BFD269B00F42832 /* RouteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteTableViewController.m; path = ViewController/RouteTableViewController.m; sourceTree = "<group>"; };
+		21B374111BFD26BF00F42832 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ViewController/DetailViewController.h; sourceTree = "<group>"; };
+		21B374121BFD26BF00F42832 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ViewController/DetailViewController.m; sourceTree = "<group>"; };
+		21B374141BFD26E000F42832 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTableViewController.h; path = ViewController/SettingsTableViewController.h; sourceTree = "<group>"; };
+		21B374151BFD26E000F42832 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTableViewController.m; path = ViewController/SettingsTableViewController.m; sourceTree = "<group>"; };
+		21B374171BFD270000F42832 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ViewController/AboutViewController.h; sourceTree = "<group>"; };
+		21B374181BFD270000F42832 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ViewController/AboutViewController.m; sourceTree = "<group>"; };
+		21B3741A1BFD2D9400F42832 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		21B3741B1BFD341500F42832 /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationService.h; path = Model/LocationService.h; sourceTree = "<group>"; };
+		21B3741C1BFD341500F42832 /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationService.m; path = Model/LocationService.m; sourceTree = "<group>"; };
+		21FC73731C0502E600DCA447 /* TrainRouteStepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainRouteStepTableViewCell.h; path = ViewController/TrainRouteStepTableViewCell.h; sourceTree = "<group>"; };
+		21FC73741C0502E600DCA447 /* TrainRouteStepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainRouteStepTableViewCell.m; path = ViewController/TrainRouteStepTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +143,16 @@
 		21B373971BFD01F700F42832 /* Dubki2 */ = {
 			isa = PBXGroup;
 			children = (
+				21B373B01BFD021A00F42832 /* Model */,
+				21B373AF1BFD020D00F42832 /* ViewController */,
+				21B373B11BFD022300F42832 /* Resource */,
 				21B3739B1BFD01F700F42832 /* AppDelegate.h */,
 				21B3739C1BFD01F700F42832 /* AppDelegate.m */,
-				21B3739E1BFD01F700F42832 /* ViewController.h */,
-				21B3739F1BFD01F700F42832 /* ViewController.m */,
+				21B373FA1BFD073F00F42832 /* Date.h */,
+				21B373FB1BFD073F00F42832 /* Date.m */,
+				21B373FF1BFD18F300F42832 /* String.h */,
+				21B374001BFD18F300F42832 /* String.m */,
 				21B373A11BFD01F700F42832 /* Main.storyboard */,
-				21B373A41BFD01F700F42832 /* Assets.xcassets */,
 				21B373A61BFD01F700F42832 /* LaunchScreen.storyboard */,
 				21B373A91BFD01F700F42832 /* Info.plist */,
 				21B373981BFD01F700F42832 /* Supporting Files */,
@@ -75,8 +164,76 @@
 			isa = PBXGroup;
 			children = (
 				21B373991BFD01F700F42832 /* main.m */,
+				21B3741A1BFD2D9400F42832 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21B373AF1BFD020D00F42832 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				21B3739E1BFD01F700F42832 /* FindViewController.h */,
+				21B3739F1BFD01F700F42832 /* FindViewController.m */,
+				21B374081BFD265500F42832 /* CampusPickerViewController.h */,
+				21B374091BFD265500F42832 /* CampusPickerViewController.m */,
+				21B3740B1BFD267B00F42832 /* TimePickerViewController.h */,
+				21B3740C1BFD267B00F42832 /* TimePickerViewController.m */,
+				21B3740E1BFD269B00F42832 /* RouteTableViewController.h */,
+				21B3740F1BFD269B00F42832 /* RouteTableViewController.m */,
+				21FC73731C0502E600DCA447 /* TrainRouteStepTableViewCell.h */,
+				21FC73741C0502E600DCA447 /* TrainRouteStepTableViewCell.m */,
+				21B374111BFD26BF00F42832 /* DetailViewController.h */,
+				21B374121BFD26BF00F42832 /* DetailViewController.m */,
+				21B374141BFD26E000F42832 /* SettingsTableViewController.h */,
+				21B374151BFD26E000F42832 /* SettingsTableViewController.m */,
+				21B374171BFD270000F42832 /* AboutViewController.h */,
+				21B374181BFD270000F42832 /* AboutViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		21B373B01BFD021A00F42832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21B373B21BFD02C300F42832 /* RouteStep.h */,
+				21B373B31BFD02C300F42832 /* RouteStep.m */,
+				21B373B51BFD02D900F42832 /* BusStep.h */,
+				21B373B61BFD02D900F42832 /* BusStep.m */,
+				21B373B81BFD02ED00F42832 /* TrainStep.h */,
+				21B373B91BFD02ED00F42832 /* TrainStep.m */,
+				21B373BB1BFD030C00F42832 /* OnFootStep.h */,
+				21B373BC1BFD030C00F42832 /* OnFootStep.m */,
+				21B373BE1BFD031F00F42832 /* SubwayStep.h */,
+				21B373BF1BFD031F00F42832 /* SubwayStep.m */,
+				21B373C11BFD034100F42832 /* TransitionStep.h */,
+				21B373C21BFD034100F42832 /* TransitionStep.m */,
+				21B373C41BFD047800F42832 /* TotalStep.h */,
+				21B373C51BFD047800F42832 /* TotalStep.m */,
+				21B374021BFD1A7200F42832 /* ScheduleService.h */,
+				21B374031BFD1A7200F42832 /* ScheduleService.m */,
+				21B374051BFD1BA600F42832 /* RouteDataModel.h */,
+				21B374061BFD1BA600F42832 /* RouteDataModel.m */,
+				21B3741B1BFD341500F42832 /* LocationService.h */,
+				21B3741C1BFD341500F42832 /* LocationService.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		21B373B11BFD022300F42832 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				21B373A41BFD01F700F42832 /* Assets.xcassets */,
+				21B373DD1BFD05BD00F42832 /* apikeys.plist */,
+				21B373E01BFD05C600F42832 /* Localizable.strings */,
+				21B373E41BFD05D100F42832 /* FortuneQuotes.plist */,
+				21B373E81BFD05DD00F42832 /* Dormitories.plist */,
+				21B373EC1BFD05E700F42832 /* Campuses.plist */,
+				21B373F01BFD064000F42832 /* Stations.plist */,
+				21B373F41BFD064F00F42832 /* Subways.plist */,
+				21B373F81BFD065B00F42832 /* InfoPlist.strings */,
+				21B373D01BFD04B400F42832 /* Settings.bundle */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +267,7 @@
 				TargetAttributes = {
 					21B373941BFD01F700F42832 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = WCVA56APQ2;
 					};
 				};
 			};
@@ -120,6 +278,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 21B3738C1BFD01F700F42832;
 			productRefGroup = 21B373961BFD01F700F42832 /* Products */;
@@ -136,9 +295,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B373DE1BFD05C600F42832 /* Localizable.strings in Resources */,
+				21B373F21BFD064F00F42832 /* Subways.plist in Resources */,
+				21B373EE1BFD064000F42832 /* Stations.plist in Resources */,
+				21B373EA1BFD05E700F42832 /* Campuses.plist in Resources */,
+				21B373D81BFD04B400F42832 /* Settings.bundle in Resources */,
 				21B373A81BFD01F700F42832 /* LaunchScreen.storyboard in Resources */,
+				21B373DB1BFD05BD00F42832 /* apikeys.plist in Resources */,
 				21B373A51BFD01F700F42832 /* Assets.xcassets in Resources */,
 				21B373A31BFD01F700F42832 /* Main.storyboard in Resources */,
+				21B373E21BFD05D100F42832 /* FortuneQuotes.plist in Resources */,
+				21B373F61BFD065B00F42832 /* InfoPlist.strings in Resources */,
+				21B373E61BFD05DD00F42832 /* Dormitories.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +317,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B373A01BFD01F700F42832 /* ViewController.m in Sources */,
+				21B373C61BFD047800F42832 /* TotalStep.m in Sources */,
+				21B3740D1BFD267B00F42832 /* TimePickerViewController.m in Sources */,
+				21B373A01BFD01F700F42832 /* FindViewController.m in Sources */,
+				21B373BD1BFD030C00F42832 /* OnFootStep.m in Sources */,
+				21B373B41BFD02C300F42832 /* RouteStep.m in Sources */,
+				21B374041BFD1A7200F42832 /* ScheduleService.m in Sources */,
+				21B374191BFD270000F42832 /* AboutViewController.m in Sources */,
+				21B373B71BFD02D900F42832 /* BusStep.m in Sources */,
+				21B373C31BFD034100F42832 /* TransitionStep.m in Sources */,
+				21B374011BFD18F300F42832 /* String.m in Sources */,
 				21B3739D1BFD01F700F42832 /* AppDelegate.m in Sources */,
+				21B373FC1BFD073F00F42832 /* Date.m in Sources */,
+				21FC73751C0502E600DCA447 /* TrainRouteStepTableViewCell.m in Sources */,
+				21B374131BFD26BF00F42832 /* DetailViewController.m in Sources */,
+				21B374101BFD269B00F42832 /* RouteTableViewController.m in Sources */,
+				21B373BA1BFD02ED00F42832 /* TrainStep.m in Sources */,
+				21B3740A1BFD265500F42832 /* CampusPickerViewController.m in Sources */,
+				21B374161BFD26E000F42832 /* SettingsTableViewController.m in Sources */,
+				21B374071BFD1BA600F42832 /* RouteDataModel.m in Sources */,
+				21B373C01BFD031F00F42832 /* SubwayStep.m in Sources */,
+				21B3741D1BFD341500F42832 /* LocationService.m in Sources */,
 				21B3739A1BFD01F700F42832 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +349,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				21B373A21BFD01F700F42832 /* Base */,
+				21B373FE1BFD15A300F42832 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -170,8 +358,80 @@
 			isa = PBXVariantGroup;
 			children = (
 				21B373A71BFD01F700F42832 /* Base */,
+				21B373DA1BFD054100F42832 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		21B373DD1BFD05BD00F42832 /* apikeys.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373DC1BFD05BD00F42832 /* Base */,
+			);
+			name = apikeys.plist;
+			sourceTree = "<group>";
+		};
+		21B373E01BFD05C600F42832 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373DF1BFD05C600F42832 /* Base */,
+				21B373E11BFD05CC00F42832 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		21B373E41BFD05D100F42832 /* FortuneQuotes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373E31BFD05D100F42832 /* Base */,
+				21B373E51BFD05D800F42832 /* ru */,
+			);
+			name = FortuneQuotes.plist;
+			sourceTree = "<group>";
+		};
+		21B373E81BFD05DD00F42832 /* Dormitories.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373E71BFD05DD00F42832 /* Base */,
+				21B373E91BFD05E200F42832 /* ru */,
+			);
+			name = Dormitories.plist;
+			sourceTree = "<group>";
+		};
+		21B373EC1BFD05E700F42832 /* Campuses.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373EB1BFD05E700F42832 /* Base */,
+				21B373ED1BFD05EA00F42832 /* ru */,
+			);
+			name = Campuses.plist;
+			sourceTree = "<group>";
+		};
+		21B373F01BFD064000F42832 /* Stations.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373EF1BFD064000F42832 /* Base */,
+				21B373F11BFD064300F42832 /* ru */,
+			);
+			name = Stations.plist;
+			sourceTree = "<group>";
+		};
+		21B373F41BFD064F00F42832 /* Subways.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373F31BFD064F00F42832 /* Base */,
+				21B373F51BFD065400F42832 /* ru */,
+			);
+			name = Subways.plist;
+			sourceTree = "<group>";
+		};
+		21B373F81BFD065B00F42832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B373F71BFD065B00F42832 /* Base */,
+				21B373F91BFD066100F42832 /* ru */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -203,6 +463,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -213,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -244,13 +505,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,10 +523,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 160;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Dubki2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.lionsoft.Dubki2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -272,10 +540,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 160;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Dubki2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.lionsoft.Dubki2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -298,6 +572,7 @@
 				21B373AE1BFD01F700F42832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    // Set application version into Settings.bundle
+    NSString *version = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    NSString *build = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
+    NSString *versionString = [NSString stringWithFormat:@"%@ (%@)", version, build];
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    Log(@"version: %@", [userDefaults stringForKey:@"version"])
+    [userDefaults setObject:versionString forKey:@"version"];
+    [userDefaults synchronize];
+
     return YES;
 }
 

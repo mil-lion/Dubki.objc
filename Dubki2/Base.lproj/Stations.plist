@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>odincovo</key>
+	<dict>
+		<key>code</key>
+		<string>c10743</string>
+		<key>title</key>
+		<string>Odincovo</string>
+		<key>subway</key>
+		<string>--</string>
+		<key>transit</key>
+		<integer>5</integer>
+	</dict>
+	<key>kuntsevo</key>
+	<dict>
+		<key>code</key>
+		<string>s9601728</string>
+		<key>title</key>
+		<string>Kuntsevo</string>
+		<key>subway</key>
+		<string>kuntsevskaya</string>
+		<key>transit</key>
+		<integer>10</integer>
+	</dict>
+	<key>fili</key>
+	<dict>
+		<key>code</key>
+		<string>s9600821</string>
+		<key>title</key>
+		<string>Fili</string>
+		<key>subway</key>
+		<string>fili</string>
+		<key>transit</key>
+		<integer>7</integer>
+	</dict>
+	<key>begovaya</key>
+	<dict>
+		<key>code</key>
+		<string>s9601666</string>
+		<key>title</key>
+		<string>Begovaya</string>
+		<key>subway</key>
+		<string>begovaya</string>
+		<key>transit</key>
+		<integer>5</integer>
+	</dict>
+	<key>belorusskaya</key>
+	<dict>
+		<key>code</key>
+		<string>s2000006</string>
+		<key>title</key>
+		<string>Belorusskaya</string>
+		<key>subway</key>
+		<string>belorusskaya</string>
+		<key>transit</key>
+		<integer>5</integer>
+	</dict>
+</dict>
+</plist>

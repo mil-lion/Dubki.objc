@@ -1,0 +1,148 @@
+
+/* Class = "UILabel"; text = "Campus"; ObjectID = "0vL-NA-Jle"; */
+"0vL-NA-Jle.text" = "Кампус";
+
+/* Class = "UILabel"; text = "Train Name:
+Stops:
+Entry to Station:"; ObjectID = "1er-hO-6XU"; */
+"1er-hO-6XU.text" = "Train Name:
+Stops:
+Entry to Station:";
+
+/* Class = "UILabel"; text = "Lesson"; ObjectID = "2L5-hp-rIF"; */
+"2L5-hp-rIF.text" = "Пара";
+
+/* Class = "UITableViewController"; title = "Choose Campus"; ObjectID = "2ms-PS-JmG"; */
+"2ms-PS-JmG.title" = "Выбор Кампуса";
+
+/* Class = "UIViewController"; title = "Choose Time"; ObjectID = "3id-AG-D0I"; */
+"3id-AG-D0I.title" = "Выбор Времени";
+
+/* Class = "UIButton"; normalTitle = "VII"; ObjectID = "4cT-03-EnP"; */
+"4cT-03-EnP.normalTitle" = "VII";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "6Nb-M6-xCy"; */
+"6Nb-M6-xCy.title" = "Подробности";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "6zT-Hv-J2c"; */
+"6zT-Hv-J2c.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "VI"; ObjectID = "84u-yI-eCR"; */
+"84u-yI-eCR.normalTitle" = "VI";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "8tG-fY-A8b"; */
+"8tG-fY-A8b.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "V"; ObjectID = "9vh-tw-Dk6"; */
+"9vh-tw-Dk6.normalTitle" = "V";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "CjP-Ko-BR2"; */
+"CjP-Ko-BR2.text" = "О программе";
+
+/* Class = "UIButton"; normalTitle = "II"; ObjectID = "DRo-32-j2m"; */
+"DRo-32-j2m.normalTitle" = "II";
+
+/* Class = "UILabel"; text = "Now"; ObjectID = "G63-DX-zI6"; */
+"G63-DX-zI6.text" = "Сейчас";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "KaA-WV-PLO"; */
+"KaA-WV-PLO.text" = "Subtitle";
+
+/* Class = "UISegmentedControl"; MZI-V9-c8c.segmentTitles[0] = "from Dubki"; ObjectID = "MZI-V9-c8c"; */
+"MZI-V9-c8c.segmentTitles[0]" = "из Дубки";
+
+/* Class = "UISegmentedControl"; MZI-V9-c8c.segmentTitles[1] = "to Dubki"; ObjectID = "MZI-V9-c8c"; */
+"MZI-V9-c8c.segmentTitles[1]" = "в Дубки";
+
+/* Class = "UITableViewSection"; headerTitle = "to/from Campus"; ObjectID = "O3u-KP-gIS"; */
+"O3u-KP-gIS.headerTitle" = "в/из Кампус";
+
+/* Class = "UINavigationItem"; title = "Dubki"; ObjectID = "Orw-lz-10i"; */
+"Orw-lz-10i.title" = "Дубки";
+
+/* Class = "UILabel"; text = "Dubki"; ObjectID = "RLA-dn-3tY"; */
+"RLA-dn-3tY.text" = "Дубки";
+
+/* Class = "UILabel"; text = "© 2015 LionSoft LLC"; ObjectID = "UdY-A1-Xoy"; */
+"UdY-A1-Xoy.text" = "© 2015 LionSoft LLC";
+
+/* Class = "UILabel"; text = "Author: Alexander Morenko"; ObjectID = "UlS-s3-nSo"; */
+"UlS-s3-nSo.text" = "Автор: Александр Моренко";
+
+/* Class = "UITableViewController"; title = "Route"; ObjectID = "Web-00-wpd"; */
+"Web-00-wpd.title" = "Маршрут";
+
+/* Class = "UILabel"; text = "Auto Location"; ObjectID = "X2j-vx-eys"; */
+"X2j-vx-eys.text" = "Автоопределение";
+
+/* Class = "UINavigationItem"; title = "Route"; ObjectID = "X3o-8F-yLZ"; */
+"X3o-8F-yLZ.title" = "Маршрут";
+
+/* Class = "UINavigationItem"; title = "Choose Campus"; ObjectID = "YKv-M7-cPp"; */
+"YKv-M7-cPp.title" = "Выбор Кампуса";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "bVl-TM-WUs"; */
+"bVl-TM-WUs.title" = "Настройки";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "biS-th-lIw"; */
+"biS-th-lIw.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Data are provided by service of Yandex.Raspisaniya"; ObjectID = "c6A-QJ-CDx"; */
+"c6A-QJ-CDx.text" = "Данные предоставлены сервисом Яндекс.Расписания";
+
+/* Class = "UIButton"; normalTitle = "IV"; ObjectID = "dfL-hl-bea"; */
+"dfL-hl-bea.normalTitle" = "IV";
+
+/* Class = "UILabel"; text = "version"; ObjectID = "fb4-wy-wAD"; */
+"fb4-wy-wAD.text" = "версия";
+
+/* Class = "UILabel"; text = "FortuneQuote"; ObjectID = "ghN-2J-0Js"; */
+"ghN-2J-0Js.text" = "FortuneQuote";
+
+/* Class = "UIButton"; normalTitle = "III"; ObjectID = "h4d-y9-IPC"; */
+"h4d-y9-IPC.normalTitle" = "III";
+
+/* Class = "UINavigationItem"; title = "Choose Time"; ObjectID = "hbY-aE-rNc"; */
+"hbY-aE-rNc.title" = "Выбор Времени";
+
+/* Class = "UITableViewSection"; headerTitle = "I want to reach"; ObjectID = "iZn-mC-63n"; */
+"iZn-mC-63n.headerTitle" = "Я хочу добраться";
+
+/* Class = "UIButton"; normalTitle = "I"; ObjectID = "jVL-3h-M5k"; */
+"jVL-3h-M5k.normalTitle" = "I";
+
+/* Class = "UITableViewSection"; headerTitle = "The planned time"; ObjectID = "lWo-aH-5zy"; */
+"lWo-aH-5zy.headerTitle" = "Планируемое время";
+
+/* Class = "UILabel"; text = "Dubki is a service for HSE students who live in dormitory, which allows \nto plan their route from dorm to campus and vice versa."; ObjectID = "lly-YM-ERV"; */
+"lly-YM-ERV.text" = "Приложение для студентов ВШЭ, которые живут в общежитии в Дубках.\nПозволяет планировать маршрут cтудента от общежития до кампуса и наоборот.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "lmG-kn-DOZ"; */
+"lmG-kn-DOZ.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "qAn-Zd-fAd"; */
+"qAn-Zd-fAd.title" = "О программе";
+
+/* Class = "UITableViewSection"; footerTitle = "The campus will be determined by geocoordinates automatically or the default"; ObjectID = "rdy-Z4-gxU"; */
+"rdy-Z4-gxU.footerTitle" = "Кампус будет определяться по геокоординатам автоматически либо основной";
+
+/* Class = "UITableViewSection"; headerTitle = "Default Campus"; ObjectID = "rdy-Z4-gxU"; */
+"rdy-Z4-gxU.headerTitle" = "Основной кампус";
+
+/* Class = "UILabel"; text = "Go!"; ObjectID = "sFb-UT-xmN"; */
+"sFb-UT-xmN.text" = "Поехали!";
+
+/* Class = "UIButton"; normalTitle = "Donate"; ObjectID = "vRp-NM-WPc"; */
+"vRp-NM-WPc.normalTitle" = "Пожертвовать";
+
+/* Class = "UISegmentedControl"; xGI-nb-fiJ.segmentTitles[0] = "Departure"; ObjectID = "xGI-nb-fiJ"; */
+"xGI-nb-fiJ.segmentTitles[0]" = "Отправления";
+
+/* Class = "UISegmentedControl"; xGI-nb-fiJ.segmentTitles[1] = "Arrival"; ObjectID = "xGI-nb-fiJ"; */
+"xGI-nb-fiJ.segmentTitles[1]" = "Прибытия";
+
+/* Class = "UILabel"; text = "Campus"; ObjectID = "zHg-Sm-VCm"; */
+"zHg-Sm-VCm.text" = "Кампус";
+
+/* Class = "UIButton"; normalTitle = "VIII"; ObjectID = "zuS-ST-4xH"; */
+"zuS-ST-4xH.normalTitle" = "VIII";

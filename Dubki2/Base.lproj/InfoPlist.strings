@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Dubki
+
+  Created by Игорь Моренко on 08.11.15.
+  Copyright © 2015 LionSoft, LLC. All rights reserved.
+*/
+
+NSLocationWhenInUseUsageDescription = "Location is required to retrieve the campus info for your current place.";
+
+CFBundleDisplayName = "Dubki";
+CFBundleName = "Dubki";
+//CFBundleShortVersionString
+NSHumanReadableCopyright = "Copyright © 2015 LionSoft LLC All right reserved.";
